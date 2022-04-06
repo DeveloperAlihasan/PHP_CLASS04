@@ -63,12 +63,13 @@ while ($last_num>=$fast_num) {
                              <!-- Assignment-05 --> 
 
 <h2>Assignment-05</h2>
+  
 <?php
 $fruits = array ("apple", "orange", "banana", "mango");
 
-foreach ($fruits as $items) {
-    echo "$items <br>";
-  }
+    echo "sl-1 product=". $fruits[0]. "<br>" . "sl-2 product=". $fruits[1]. "<br>" . "sl-3 product=". $fruits[2]. "<br>" . "sl-4 product=". $fruits[3]. "<br>";
+    
+  
 ?>
 
 </html>
